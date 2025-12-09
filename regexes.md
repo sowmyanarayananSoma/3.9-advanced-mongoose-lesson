@@ -271,6 +271,8 @@ Useful for text with multiple lines.
 
 ```js
 /^(?=.*\d).+$/
+
+/^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[!@#$%])[A-Za-z09!@#$%]{8,}$/
 ```
 
 ### Match YYYY-MM-DD date
